@@ -18,7 +18,7 @@ public final class ServerStop implements Runnable {
 	public void run() {
 		JOptionPane.showMessageDialog(null, "Press OK to stop server.");
 
-		server.exit = true;
+		server.poisonPill = true;
 		endpoint.send(new InetSocketAddress("localhost", 4711), 1);
 	}
 
