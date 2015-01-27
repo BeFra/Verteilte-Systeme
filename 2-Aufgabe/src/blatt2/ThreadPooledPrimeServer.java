@@ -8,14 +8,14 @@ public final class ThreadPooledPrimeServer {
 	
 	private ExecutorService executor;
 	private final ServerEndpoint endpoint;
-	
+	private static final int nThreads = 2;
 	public volatile boolean poisonPill;
 	
-	private static final int MAX_THREADS = 2;
+	
 	
 	public ThreadPooledPrimeServer()
 	{
-		executor = Executors.newFixedThreadPool(MAX_THREADS);
+		executor = Executors.newFixedThreadPool(nThreads);
 		endpoint = new ServerEndpoint();
 		poisonPill= false;
 	}
