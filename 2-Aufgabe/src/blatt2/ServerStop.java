@@ -1,8 +1,9 @@
 package blatt2;
 
+import blatt1.ClientEndpoint;
 import java.net.InetSocketAddress;
 import javax.swing.JOptionPane;
-import blatt1.ClientEndpoint;
+
 
 public final class ServerStop implements Runnable {
 
@@ -16,8 +17,7 @@ public final class ServerStop implements Runnable {
 	
 	@Override
 	public void run() {
-		JOptionPane.showMessageDialog(null, "Press OK to stop server.");
-
+		JOptionPane.showMessageDialog(null, "Press OK Button to stop the server.");
 		server.poisonPill = true;
 		endpoint.send(new InetSocketAddress("localhost", 4711), 1);
 	}
