@@ -18,17 +18,14 @@ public final class PrimeCalculator implements Runnable {
 	{
 		endpoint.send(request.getSender(), calcPrime());
 	}	
-	
-	private boolean calcPrime()
-	{
-		long number = request.getNumber();
-		for (long i = 2; i <= Math.sqrt(number); i++)
-		{
-			if (number % i == 0)
-			{
-				return false;
-			}
-		}
-		return true;
+	public void calcPrime() {
+		boolean isPrime = true;
+		for (long i = 2; i <= Math.sqrt(number); i++) {
+	    		if (number % i == 0) {
+	    			isPrime =  false;
+	    			break;
+	    		}
+	    	}
+		return isPrime;
 	}
 }
