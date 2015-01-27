@@ -8,13 +8,13 @@ The ThreadedPooledPrimeServer provides a thread pool for the requests.
 The PrimeClinet4ServerMesurement class measures the times of the calculation time of a request to the SerialPrimeServer and the ThreadedPooledPrimeServer.
 
 #### 2-Aufgabe
-A extension of "1-Aufgabe" with the Posion-Pill-Technik to stop the Server.
+A extension of "1-Aufgabe" with the Posion-Pill-Technique to stop the Server.
 
 #### 3-Aufgabe
-This project deals with the hierarchical localization linear names.
+This project implements the hierarchical localization linear names algorithm.
 
 #### 4-Aufgabe
-This Projekts deals with the Algorithm of Ricart and Agrawala for the mutual exclusion in a distributed system.
+This projekts implements the algorithm of Ricart and Agrawala for the mutual exclusion in a distributed system.
 
 #### 5-Aufgabe
 This project provides the basis for a distributed MVC architecture(Model View Controller).
