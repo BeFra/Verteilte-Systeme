@@ -1,4 +1,4 @@
-package versy;
+package blatt6;
 
 import forum.framework.ForumClient;
 import forum.framework.ForumServer;

@@ -1,4 +1,4 @@
-package versy;
+package blatt6;
 
 import java.io.IOException;
 import java.util.Map;
