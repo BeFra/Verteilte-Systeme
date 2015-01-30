@@ -14,7 +14,10 @@ A extension of "1-Aufgabe" with the Posion-Pill-Technique to stop the Server.
 This project implements the hierarchical localization linear names algorithm.
 
 #### 4-Aufgabe
-This projekts implements the algorithm of Ricart and Agrawala for the mutual exclusion in a distributed system.
+This project implements the algorithm of Ricart and Agrawala for the mutual exclusion in a distributed system.
 
 #### 5-Aufgabe
+This project implements the bully algorithmen. The bully algorithm is a method in distributed computing for dynamically electing a coordinator by process ID number. The process with the highest process ID number is selected as the coordinator.
+
+#### 6-Aufgabe
 This project provides the basis for a distributed MVC architecture(Model View Controller).
