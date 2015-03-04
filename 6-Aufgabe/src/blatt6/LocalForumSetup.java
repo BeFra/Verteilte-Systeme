@@ -5,7 +5,6 @@ import forum.framework.ForumServer;
 
 public class LocalForumSetup
 {
-
 	public static void main(String[] args)
 	{
 		ForumServer server = new ForumServer(LocalModelReceiver.getInstance());
@@ -19,7 +18,7 @@ public class LocalForumSetup
 		}
 		catch ( Exception e)
 		{
-			System.err.printf("%s: %s.", e.toString(), e.getMessage());
+			System.err.printf("Error: %s: %s.", e.toString(), e.getMessage());
 		}
 	}
 }
